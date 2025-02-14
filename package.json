@@ -2,7 +2,7 @@
     "name": "deno-proxy",
     "version": "1.0.0",
     "description": "A proxy server for API services",
-    "main": "src/index.js",
+    "main": "api-proxy.js",
     "scripts": {
         "start": "node src/index.js"
     },
