@@ -2,13 +2,13 @@
     "version": 2,
     "builds": [
         {
-            "src": "src/index.js",
+            "src": "api-proxy.js",
             "use": "@vercel/static-build"
         }
     ],
     "routes": [
         {
-            "handler": "index.js",
+            "handler": "api-proxy.js",
             "method": "GET",
             "path": "*"
         }
